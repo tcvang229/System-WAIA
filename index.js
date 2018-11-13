@@ -33,4 +33,7 @@ function initiateCommand(event) {
     .join("");
     console.log(transcript);
   }
+  recognition.start();
 }
+
+initiateCommand();
