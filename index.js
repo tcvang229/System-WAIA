@@ -1,6 +1,6 @@
 function speechSynthesisFunction(text) {
   var msg = new SpeechSynthesisUtterance();
-  var voices - speechSynthesis.getVoices();
+  var voices = speechSynthesis.getVoices();
 
   msg.lang = "en-US";
   msg.voice = voices[3];
