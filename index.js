@@ -27,7 +27,7 @@ function initiateCommand(event) {
     console.log("initiateCommand has ENDED");
   }
   recognition.onresult = function(event) {
-    var transcript = Array.from(events.results)
+    var transcript = Array.from(event.result)
     .map(result => result[0])
     .map(result => result.transcript)
     .join("");
