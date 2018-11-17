@@ -95,7 +95,7 @@ function initiateCommand(event) {
 
     var time = showHour + ":" + minute;
 
-    var transcript = Array.from(event.result)
+    var transcript = Array.from(event.results)
     .map(result => result[0])
     .map(result => result.transcript)
     .join("");
