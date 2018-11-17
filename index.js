@@ -129,7 +129,7 @@ function initiateCommand(event) {
 
     if(transcript === inVoice1) {
       document.getElementById("out_put_text").innerHTML = randomNumber;
-      speechSynthesisFunctionObject(randomNumber);
+      speechSynthesisFunction(randomNumber);
       recognition.abort();
       recognition.followingCommand();
       voiceSwitch = true;
@@ -209,7 +209,7 @@ function initiateCommand(event) {
       switch (transcript) {
         case _inVoice1:
         document.getElementById("out_put_text").innerHTML = _outVoice1;
-        recognition.speechSynthesisFunctionObject(_outVoice1);
+        recognition.speechSynthesisFunction(_outVoice1);
         nextRecognition.abort();
         recognition.start();
         voiceSwitch = undefined;
@@ -217,21 +217,21 @@ function initiateCommand(event) {
         break;
         case _inVoice2try:
         document.getElementById("out_put_text").innerHTML = _outVoice2try;
-        recognition.speechSynthesisFunctionObject(_outVoice2);
+        recognition.speechSynthesisFunction(_outVoice2);
         recognition.start();
         voiceSwitch = undefined;
         voiceSwitchConfirm = true;
         break;
         /*case _inVoice3:
         document.getElementById("out_put_text").innerHTML = _outVoice3;
-        recognition.speechSynthesisFunctionObject(time);
+        recognition.speechSynthesisFunction(time);
         recognition.start();
         voiceSwitch = undefined;
         voiceSwitchConfirm = true;
         break;*/
         case searchEnding:
         document.getElementById("out_put_text").innerHTML = _outVoice9;
-        speechSynthesisFunctionObject(_outVoice9);
+        speechSynthesisFunction(_outVoice9);
         window.open(_urlSearchEnding);
         recognition.start();
         voiceSwitch = undefined;
@@ -239,7 +239,7 @@ function initiateCommand(event) {
         break;
         case accessUrlEnding:
         document.getElementById("out_put_text").innerHTML = _outVoice10;
-        speechSynthesisFunctionObject(_outVoice10);
+        speechSynthesisFunction(_outVoice10);
         window.open(_urlAccessFinal);
         recognition.start();
         voiceSwitch = undefined;
