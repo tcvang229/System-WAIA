@@ -1,4 +1,4 @@
-Website Developer: Tswjfwmeng Vang
+Developer: Tswjfwmeng Vang
 
 
 
