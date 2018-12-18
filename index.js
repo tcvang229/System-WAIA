@@ -1,4 +1,4 @@
-//WAI.js --> Web Speech API on JavaScript
+//WAIA.js --> Web Speech API Assistant on JavaScript
 //compatable with Google Chrome & Firefox
 
 
@@ -199,7 +199,7 @@ function initiateCommand(event) {
 
       var _outVoice1 = "My name is System, my creater is Mr. Vang.";
       var _outVoice2 = "Here is the weather today.";
-      var _outVoice2try = "fuck you bitch";
+      var _outVoice2try = "";
       //var _outVoice3 = "It's " + time;
       var _outVoice9 = "Searching for " + transcriptSearchVariable;
       var _outVoice10 = "Accessing, " + transcriptSpecificVariable;
