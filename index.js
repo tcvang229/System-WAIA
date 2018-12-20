@@ -5,7 +5,7 @@
 //Global variables & objects
 var voiceSwitchConfirm;
 var voiceSwitch;
-
+speechSynthesis.getVoices();
 
 //Function edit space
 function receiveRandomNumber(min, max) {
