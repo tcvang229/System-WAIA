@@ -27,19 +27,6 @@ h1 {
   margin: 0px;
 }
 
-/*.fade_in {
-  animation: fadeIn 4s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}*/
-
 #out_put_text {
   color: #ffffff;
 }
@@ -65,4 +52,27 @@ h1 {
 
 #transcript {
   color: #ffffff;
+}
+
+#intro_div {
+  position: absolute;
+  height: 20%;
+  top: 10%;
+  /*transform: translateY(-10%);*/
+  /*border: 0.5px white solid;*/
+}
+
+#intro_text {
+  text-align: center;
+  animation: fadeIn 4s;
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
