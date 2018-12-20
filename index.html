@@ -11,7 +11,7 @@
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
+<!-- Bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 <!-- Font Awesome for icons -->
@@ -23,11 +23,20 @@
 <!-- CSS style sheet for index-->
 <link rel="stylesheet" type="text/css" href="index.css">
 
-<title>Portal</title>
+<title>Web Speech API Assistant (WAIA)</title>
 </head>
 
 <body>
 <div class="container-fluid">
+  <div class="row" id="intro_div">
+    <div class="col-sm-12" id="intro_text">
+      <h3>Access to your microphone and pop up windows are needed for WAIA to function properly</h3>
+      <br>
+      <h3>Say, "Hello System" to initiate command phase</h3>
+      <br>
+      <h3>Commands: "access (URL)", "search (ex. Marvel Studios)"</h3>
+    </div>
+  </div>
   <div class="row">
     <div class="col-sm-12" id="out_put_div">
       <h1 id="out_put_text"></h1>
