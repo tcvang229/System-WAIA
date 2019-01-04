@@ -34,3 +34,6 @@ The Web Speech API branches into main objects: SpeechSynthesisUtterance() and Sp
 ##### onresult = function / value (shows the result of what is being spoken through the mic)
 ##### recognition.start() = starts the action that allows user's voice to be taken into consideration
 ##### recognition.stop() = stops the action that allows the user's voice to be taken into consideration
+
+# Developer Credit
+Tswjfwmeng Vang
