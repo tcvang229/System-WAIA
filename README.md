@@ -10,18 +10,27 @@ every time I wanted a new link. System-WAIA doesn't require that.
 System-WAIA is able to connect the user to a URL without having to create buttons that will stain the web page.
 It allows dynamic searches, unlike my original web page.
 
+# Tools
+#### HTML
+#### CSS
+#### JavaScript
+
 # Web Speech API
-System-WAIA is built upon JavaScript. It uses the browser's built in Web Speech API.
+It uses the browser's built in Web Speech API.
 The Web Speech API branches into main objects: SpeechSynthesisUtterance() and SpeechRecognition().
 
 #### SpeechSynthesisUttereance methods and attributes
 ##### lang = en-US
 ##### continuous = true/false
 ##### interimResults = true/false
+##### speechSynthesis.speak(x) = reads text of values x
 
-
-SpeechRecognition object provides methods that will allow voice to interact with the program.
-Different attributes such as the language used, continuous mic control (mic is on continuously), interim result
-(machine wll guess what you said and then finalize the text), on start, on end, and much more.
-For the SpeechRecognition object, we do need to check if the browser has the object built in.
-
+#### SpeechRecognition methods and attributes
+##### onstart = function / value 
+##### onend = function / value
+##### onaudiostart = function / value
+##### onsoundend = function / value
+##### onspeechstart = function / value
+##### onresult = function / value (shows the result of what is being spoken through the mic)
+##### recognition.start() = starts the action that allows user's voice to be taken into consideration
+##### recognition.stop() = stops the action that allows the user's voice to be taken into consideration
