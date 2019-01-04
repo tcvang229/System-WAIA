@@ -1,1 +1,0 @@
-Developer: Tswjfwmeng Vang
