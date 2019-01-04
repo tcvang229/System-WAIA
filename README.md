@@ -38,7 +38,7 @@ Ex. (lines 34, index.js)
 window.SPeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition; //window.SpeechRecognition is for FireFox
 //window.webkitSpeechRecognition is for Google Chrome
 
-var recognition = new SpeechRecognition();
+var recognition = new SpeechRecognition(); <br>
 recognition.lang = "en-US";
 recognition.continuous = false;
 recognition.interimResults = false;
