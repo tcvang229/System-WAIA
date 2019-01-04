@@ -10,7 +10,7 @@ every time I wanted a new link. System-WAIA doesn't require that.
 System-WAIA is able to connect the user to a URL without having to create buttons that will stain the web page.
 It allows dynamic searches, unlike my original web page.
 
-#Web Speech API
+# Web Speech API
 System-WAIA is built upon JavaScript. It uses the browser's built in Web Speech API.
 The Web Speech API branches into main objects: SpeechSynthesisUtterance() and SpeechRecognition().
 
