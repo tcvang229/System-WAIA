@@ -19,13 +19,13 @@ It allows dynamic searches, unlike my original web page.
 It uses the browser's built in Web Speech API.
 The Web Speech API branches into main objects: SpeechSynthesisUtterance() and SpeechRecognition().
 
-#### SpeechSynthesisUttereance methods and attributes
+#### SpeechSynthesisUttereance methods and attributes used
 ##### lang = en-US
 ##### continuous = true/false
 ##### interimResults = true/false
 ##### speechSynthesis.speak(x) = reads text of values x
 
-#### SpeechRecognition methods and attributes
+#### SpeechRecognition methods and attributes used
 ##### onstart = function / value 
 ##### onend = function / value
 ##### onaudiostart = function / value
