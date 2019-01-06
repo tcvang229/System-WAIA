@@ -35,5 +35,5 @@ The Web Speech API branches into main objects: SpeechSynthesisUtterance() and Sp
 ##### recognition.start() = starts the action that allows user's voice to be taken into consideration
 ##### recognition.stop() = stops the action that allows the user's voice to be taken into consideration
 
-# Developer Credit
-Tswjfwmeng Vang
+# Credit
+Developer: Tswjfwmeng Vang
