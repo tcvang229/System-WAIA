@@ -1,0 +1,56 @@
+December 30, 2019 (ALMOST NEW YEARS BBY)
+
+with the original state of WAIA, project is arguably considered a "Good, Old-Fashined AI (GOFAI)"
+
+GOALS
+	- once understanding material, be able to give her own opinion or paraphrase
+	without just stealing the text/data and spitting it out
+		- WAIA takes weather data => understands that it is bad weather
+		- "Show me the weather" => "THE WEATHER LOOKS PRETTY BAD. RIGHT NOW, 
+		THE FOX VALLEY CITIES ARE EXPERIENCING A SNOW STORM CALLED BRODY. I 
+		could notify your boss that the driving conditions may be severe and 
+		you'll be late to work."
+		- use weather API to receive data, store them into a dataframe, then
+		use that dataframe for machine learning
+
+	- should be able to make decisions for the user
+		- her responses to the initial command that was given by the user 
+		- "Show me the weather" => "The weather looks pretty bad. Right now, 
+		the Fox Valley cities are experiencing a snow storm called Brody. I 
+		COULD NOTIFY YOUR BOSS THAT THE DRIVING CONDITIONS MAY BE SEVERE AND 
+		YOU'LL BE LATE TO WORK."
+		- gonna have to figure out what kind of data that will be in this
+		dataframe for WAIA to make those decisions based upon the user's
+		commands
+
+
+Decision Trees vs Neural Networks?
+	- DT requires some type of model that at an input at the root of the tree
+	will trickle down to some leaf node
+	- DT requires dataset
+	- DT model would mean that taking 1 object (1 input) what is the outcome?
+		- WAIA would judge how important the user's command is
+		- e.g.: "When is my daughter's birthday?" => "It is on January 29. 
+		This seems important, would you like me to put it on your schedule?"
+	- NN requires layers and some sort of activation functions
+	- NN will help classify and cluster data
+	- take a look at Tensor Flow
+	- e.g.: learning about the things that I do and categorize them... what is important 
+	// what isn't important // what do i prefer // what don't I prefer
+
+
+
+# NN supposedly doesn't require much data, but DT does
+# refer back to AI course... lots of data for DT
+
+
+
+
+December 31, 2019 (NEW YEARS EVE BBY)
+
+LIFE CYCLE
+	- start with Electron framework, get front-end and back-end working
+	- do I use JS or Python for algorithms? maybe JS for back-end, front-end, and AI
+		- easier
+	- bring in weather API
+		- WAIA will require internet connection
