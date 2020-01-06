@@ -1,4 +1,5 @@
-const vsr = require("voice-speech-recognition");
+
+/*const vsr = require("voice-speech-recognition");
 
 const vsrConfig = {
 	continuous: true,
@@ -15,18 +16,30 @@ recognizer.onstart = function() {
 	console.log("recognizer starting");
 }
 
+recognizer.onresult = () => {
+	console.log("result:" + recognizer.finalRecognizing);
+	var patt = /my name+/g;
+	var r = recognizer.finalRecognizing.match(patt);
+	if (r == "my name") {
+		window.open("https://youtube.com");		
+	}
+	recognizer.resetRecognition();
+}
+
+recognizer.onerror = (event) => {
+	console.log("error: " + event.error);
+}
+
 recognizer.onend = function() {
 	console.log("recognizer ending");
-}
+}*/
 
-var resultText = function() {
-	recognizer.onresult = () => {
-		return recognizer.finalRecognizing;
-	}
-}
+const speech = require("speech-js");
 
-var errorString = function() {
-	recognizer.onerror = function(event) {
-		return event.error;
-	}
+//speech.synthesis("Hello", "en-US");
+const recognition = speech.recognition("en-US");
+recognition.start();
+recognition.onresult = (e) => {
+	var result = e.results[0][0].transcript
+	speech.synthesis(result, "en-US");
 }

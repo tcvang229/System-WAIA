@@ -1,5 +1,11 @@
 const {app, BrowserWindow} = require("electron");
 
+process.env["ELECTRON_DISABLE_SECURITY_WARNINGS"] = "true";
+process.env.GOOGLE_API_KEY = "AIzaSyBo3B0WHSkkYJAtHfu9hxZTWHEg3yXMngo";
+process.env.GOOGLE_DEFAULT_CLIENT_ID = "1123522548-c4pqirjq1u5uvvf36h08nnpfn1cmqstg.apps.googleusercontent.com";
+process.env.GOOGLE_CLIENT_SECRET = "Ai2YNzHs-mCA0uljNRIoaowD";
+
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win
@@ -10,7 +16,7 @@ function createWindow () {
     width: 800,
     height: 600,
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true 
     }
   })
 

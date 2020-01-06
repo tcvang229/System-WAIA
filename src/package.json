@@ -12,6 +12,6 @@
     "electron": "^7.1.7"
   },
   "dependencies": {
-    "voice-speech-recognition": "^1.1.2"
+    "speech-js": "^0.1.1"
   }
 }
